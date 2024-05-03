@@ -1,0 +1,53 @@
+.box{
+  width: 200px;
+  height: 200px;
+}
+
+h1, h2{
+  font-weight: normal;
+}
+
+.red{
+  border: 1px solid red;
+  background: red;
+}
+
+.blue{
+  border: 1px solid blue;
+  background-color: blue;
+}
+
+.orange{
+  border: 1px solid orange;
+  background: orange;
+}
+
+.green{
+  border: 1px solid green;
+  background: green;
+}
+
+.yellow{
+  border: 1px solid yellow;
+  background: yellow;
+}
+
+p[value="1"]{
+  color: red;
+}
+
+p[value="2"]{
+  color: blue;
+}
+
+p[value="3"]{
+  color: orange;
+}
+
+p[value="4"]{
+  color: green;
+}
+
+p[value="5"]{
+  color: yellow;
+}
